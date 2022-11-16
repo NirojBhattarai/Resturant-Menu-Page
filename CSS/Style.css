@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+.intro_section {
+    text-align: center;
+    background-image: url(/Image/fernando-gutierrez-_eZ5UCr9_QM-unsplash.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 900px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+    filter: contrast(100%);
+    -webkit-filter: contrast(100%);
+    filter: blur(50%);
+    -webkit-filter: blur(50%);
+    font-family: Futura;
+    margin-bottom: 0;
+}
+
+.intro_section h1 {
+    font-weight: bolder;
+    font-size: 100px;
+    padding-top: 100px;
+    color: rgb(0, 255, 251);
+}
+
+.intro_section h4 {
+    font-weight: bolder;
+    color: yellow;
+}
+
+.collapse {
+    font-weight: bolder;
+}
+
+.login_action {
+    padding-top: 250px;
+    font-size: 30px;
+}
+
+#login_page {
+    display: none;
+}
